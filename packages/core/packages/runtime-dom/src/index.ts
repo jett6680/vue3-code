@@ -64,7 +64,7 @@ export const hydrate = ((...args) => {
 
 export const createApp = ((...args) => {
   const app = ensureRenderer().createApp(...args)
-  console.log('Hello Vue.js version 3 test')
+  console.log('Hello Vue.js version 3 test 111111')
   if (__DEV__) {
     injectNativeTagCheck(app)
     injectCompilerOptionsCheck(app)

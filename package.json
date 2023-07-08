@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:project": "cd packages/project && pnpm run dev",
+    "dev:core": "cd packages/core && pnpm run dev-esm"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/powerjett/vue3-code/issues"
   },
-  "homepage": "https://github.com/powerjett/vue3-code#readme"
+  "homepage": "https://github.com/powerjett/vue3-code#readme",
+  "dependencies": {
+    "source-map-js": "^1.0.2"
+  }
 }
